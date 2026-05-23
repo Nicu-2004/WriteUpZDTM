@@ -48,7 +48,7 @@ I opened the pcap file in Wireshark, and noticed a perculiar response to a reque
 I copied the data as a hex dump and went to cyberchef to convert it to a viewable image.
 <img width="958" height="332" alt="image" src="https://github.com/user-attachments/assets/b0057df1-60f3-4f1f-8123-44e3a805ec4f" />
 
-The image wasnt that intresting, until I remembered about exif data. I visited one that allowed me to view it and found something intresting
+The image wasnt that intresting, until I remembered about exif data. I visited one that allowed me to view it and found something quite strange
 
 <img width="1111" height="57" alt="image" src="https://github.com/user-attachments/assets/babaeef3-6552-46bf-98d4-fd1dff4d284d" />
 
@@ -56,4 +56,16 @@ Base64 decoding it gets us the flag
 
 <img width="685" height="615" alt="image" src="https://github.com/user-attachments/assets/343af41f-ca22-4554-93dd-d2d978e3f9f6" />
 
+# breaking-zip
+
+I firstly opened the zip in 7z, and I saw this file structure.
+<img width="837" height="191" alt="image" src="https://github.com/user-attachments/assets/8d662f12-83d9-47ef-88fa-c1c6733d181d" />
+
+Googling around I found that most of these files are from `https://github.com/adryd325/oneko.js/`. After searching around I found a program called PKCrack that can decrypt a zip if one of its file contents are in plain-text. I downloaded the exe and used the params `pkcrack -C breaking_zip.zip -c oneko.js/oneko.gif -P oneko.zip -p oneko.gif -d decrypted.zip`, oneko.zip containing the "oneko.gif" file
+
+<img width="1089" height="417" alt="image" src="https://github.com/user-attachments/assets/63b88966-c71b-4add-adcb-4ce0a908520a" />
+
+SUCCESS!!!! Opening flag.txt reveals it
+
+<img width="409" height="91" alt="image" src="https://github.com/user-attachments/assets/d6d85b65-ede9-4c15-b9f0-32d4460e8dc2" />
 

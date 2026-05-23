@@ -29,3 +29,14 @@ Instantly I noticed that the website allowed any file extensions to be uploaded.
 After visiting my submission, I was able to get the flag from the root
 <img width="968" height="925" alt="image" src="https://github.com/user-attachments/assets/524de7db-e12d-4d3e-9e16-fae7689a542a" />
 
+# MacroPlex
+After opening the .eml file in Outlook, I instantly knew the first 2 questions required to solve the challange.
+<img width="1416" height="256" alt="image" src="https://github.com/user-attachments/assets/ff2d45f5-02c3-4ade-b14c-51b9187ecd7f" />
+
+Opening the .docm file in Libreoffice, I got informed that the file had macros.
+<img width="1431" height="741" alt="image" src="https://github.com/user-attachments/assets/044258cc-05e0-4706-a240-6c1363cb42e8" />
+
+Viewing the macro, I got the answer to the third question
+<img width="1422" height="741" alt="image" src="https://github.com/user-attachments/assets/3af15604-f294-4212-926c-a45ec2d75094" />
+
+The flag was: ZDTM{Mara.M@macroplex.com_docm_m4lw4re}

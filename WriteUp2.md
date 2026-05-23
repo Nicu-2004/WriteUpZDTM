@@ -147,7 +147,26 @@ LTI - Leoaica tanara,iubirea by Nichita Stanescu  https://www.romanianvoice.com/
 Let's do the first one as an example!
 B:14:50:8 means the first character is in the book Baltagul in chapter 14 in the 50'th word at the 8'th position.
 Keep in mind that in romanian grammar something structures using " - " count as two words (si-a , v-a , intr-o etc.)
-The first step is to click the
+The first step is to go to the virtual version of the book (the links for all of them are above)
+Second we need to search for the chapter 14 (CTRL + F Capitolul 14)
+<img width="617" height="775" alt="image" src="https://github.com/user-attachments/assets/67d8eeb9-8b0f-4895-98d1-36fb871b77fa" />
+Third we need to copy a chunk of text and paste it in a word file (it counts the words for us).
+<img width="840" height="757" alt="image" src="https://github.com/user-attachments/assets/44b47ed0-b3bb-475c-b907-e39d1a051a88" />
+Forth we need to trim it to the word we need (in our case the 50th) and search how many " - " we have.
+<img width="1135" height="860" alt="image" src="https://github.com/user-attachments/assets/aa888385-0414-458b-94da-fa5cbb22601b" />
+Fifth we need to backtrack from the final word the number of " - " we found ( to get to the real 50th word)
+<img width="1042" height="275" alt="image" src="https://github.com/user-attachments/assets/270cdeae-0581-4a40-abab-066cf7c56f78" />
+Sixth we need to get right character (in our case 8)
+<img width="1465" height="553" alt="image" src="https://github.com/user-attachments/assets/8c6d512e-04ea-489f-950a-9373144c633c" />
+
+The first letter of our string is : E
+After completing the whole thing the string is : euamivitcuvintepotrivite
+
+Using this string as the password for the flag.txt file reveals to us the Flag
+
+
+
+
 
 
 

@@ -96,10 +96,13 @@ JUSTMOVELETTERSNOTTHEMEANINGNOW
 First of all I had to search the name of the algorithm the author was reffering: "the 4 column thingy"
 After some research I learned that the name of the cipher is Transposition Cipher and it only has 4 columns when the key is exactly 4 characters long.
 The string we need to encrypt has a clear meaning, we have to just move the letters so the key will be 4 characters in ascending value ASCII wise ( A B C D or 1 2 3 4 )
+We also get the hind that we should add "X" at the end of the message ( "Btw,X")
 
-<img width="774" height="446" alt="image" src="https://github.com/user-attachments/assets/cbbacad1-82e1-446b-baeb-2ff03360b7fa" />
+<img width="429" height="265" alt="image" src="https://github.com/user-attachments/assets/653a7493-a2a7-4f04-b381-c8987fcff95b" />
+<img width="334" height="77" alt="image" src="https://github.com/user-attachments/assets/e0f2101e-654a-4832-b174-8efdf4eb46bf" />
 
-The flag is: `ZDTM{JLONUETISTTNTTHGMEENORMOVSEWENA}`
+
+The flag is: `ZDTM{JMLEOENNUOERTMIOSVTSTENWTETNHAGX}`
 
 Website used: https://www.dcode.fr/transposition-cipher
 

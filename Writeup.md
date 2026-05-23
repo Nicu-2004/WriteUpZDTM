@@ -20,3 +20,10 @@ I visited a JWT debugging website (jwt.io) and changed my roles to become an adm
 
 I removed the signature part of my alterned one and replaced it with "legacy-signature". Then I visited the admin page.
 <img width="1020" height="358" alt="image" src="https://github.com/user-attachments/assets/5997e4bc-d4d7-4499-a18f-a84d0de8ec3b" />
+
+# Open Gallery
+Instantly I noticed that the website allowed any file extensions to be uploaded. Noticing the "PHP" headers, I uploaded a small php that could ls and cat each file
+<img width="589" height="306" alt="image" src="https://github.com/user-attachments/assets/90c99b36-c18b-47ee-bca7-db28528e25b0" />
+
+After visiting my submission, I was able to get the flag from the root
+<img width="968" height="925" alt="image" src="https://github.com/user-attachments/assets/461f3012-95ae-4271-934b-c36ee7263214" />

@@ -39,4 +39,4 @@ Opening the .docm file in Libreoffice, I got informed that the file had macros.
 Viewing the macro, I got the answer to the third question
 <img width="1422" height="741" alt="image" src="https://github.com/user-attachments/assets/3af15604-f294-4212-926c-a45ec2d75094" />
 
-The flag was: ZDTM{Mara.M@macroplex.com_docm_m4lw4re}
+The flag was: `ZDTM{Mara.M@macroplex.com_docm_m4lw4re}`

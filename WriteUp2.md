@@ -110,7 +110,7 @@ Website used: https://www.dcode.fr/transposition-cipher
 # Comoara Nationala
 
 In this challenge we get a zip file with a flag.txt file locked behind a password and a cryptic .txt file.
-
+```
 B:14:50:8
 B:3:17:2
 PLHA:1:20:3
@@ -135,7 +135,7 @@ PLHA:1:345:5
 B:1:6:7
 PLHA:1:211:3
 B:12:24:3
-
+```
 The description makes it clear that this cryptic text is related to some well known romanian classics.
 Every row is a combination of # NAME:CHAPTER:WORD:CHARACTER.
 Each name is an abreviation of a romanian classic:

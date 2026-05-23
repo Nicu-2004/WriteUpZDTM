@@ -27,4 +27,5 @@ Instantly I noticed that the website allowed any file extensions to be uploaded.
 <img width="589" height="306" alt="image" src="https://github.com/user-attachments/assets/90c99b36-c18b-47ee-bca7-db28528e25b0" />
 
 After visiting my submission, I was able to get the flag from the root
-<img width="968" height="925" alt="image" src="https://github.com/user-attachments/assets/461f3012-95ae-4271-934b-c36ee7263214" />
+<img width="968" height="925" alt="image" src="https://github.com/user-attachments/assets/524de7db-e12d-4d3e-9e16-fae7689a542a" />
+

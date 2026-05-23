@@ -73,7 +73,6 @@ Webisite used: https://www.dcode.fr/vigenere-cipher
 
 # Challenge 4
 
-Challenge 4.
 The archivist finally embraced modern cryptography.
 âClassical ciphers are toys, small ones.â he wrote.
 
@@ -86,7 +85,21 @@ Obvious RSA encryption, we were given the encrypted message ( c ) and the public
 
 Website used: https://www.dcode.fr/rsa-cipher
 
+# Challenge 5.
 
+"I am too old for this.
+I'll give you the flag, just help me encrypt this message using the 4 column thingy.
+Forgot it's name. Btw, X"
+
+JUSTMOVELETTERSNOTTHEMEANINGNOW
+
+First of all I had to search the name of the algorithm the author was reffering: "the 4 column thingy"
+After some research I learned that the name of the cipher is Transposition Cipher and it only has 4 columns when the key is exactly 4 characters long.
+The string we need to encrypt has a clear meaning, we have to just move the letters so the key will be 4 characters in ascending value ASCII wise ( A B C D or 1 2 3 4 )
+
+<img width="774" height="446" alt="image" src="https://github.com/user-attachments/assets/cbbacad1-82e1-446b-baeb-2ff03360b7fa" />
+
+The flag is: `ZDTM{JLONUETISTTNTTHGMEENORMOVSEWENA}`
 
 
 

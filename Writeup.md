@@ -69,3 +69,23 @@ SUCCESS!!!! Opening flag.txt reveals it
 
 <img width="409" height="91" alt="image" src="https://github.com/user-attachments/assets/d6d85b65-ede9-4c15-b9f0-32d4460e8dc2" />
 
+# Open Gallery - text only version 
+This version was a lot stricter, but it still had flaws. It allowed me to upload a .htaccess [`AddType application/x-httpd-php .txt`] file that made every .txt file behave like a .php. It was the same proccess as before
+
+<img width="986" height="910" alt="image" src="https://github.com/user-attachments/assets/293d8ee4-305d-4fe6-9bb5-5d13541f6828" />
+
+# movie-proxy
+I went to the website and notice that the reviews page had some internal talk, specifically about forward-user.
+<img width="885" height="476" alt="image" src="https://github.com/user-attachments/assets/31c9bb28-e0fb-4d8d-af76-304db092acf1" />
+
+I went to the internal page and noticed this.
+<img width="1021" height="362" alt="image" src="https://github.com/user-attachments/assets/50b05eb3-3e3b-43f7-8004-a95152eb18eb" />
+
+I copied the request as fetch and added the "X-Forwarded-User" header.
+<img width="753" height="255" alt="image" src="https://github.com/user-attachments/assets/e91aebd7-b6a2-4143-90ca-0e79916fc3cf" />
+
+And we got the flag
+<img width="953" height="582" alt="image" src="https://github.com/user-attachments/assets/046960c0-65f8-41fa-af91-e5e04d412202" />
+
+
+

@@ -85,7 +85,8 @@ I copied the request as fetch and added the "X-Forwarded-User" header.
 <img width="753" height="255" alt="image" src="https://github.com/user-attachments/assets/e91aebd7-b6a2-4143-90ca-0e79916fc3cf" />
 
 And we got the flag
-<img width="953" height="582" alt="image" src="https://github.com/user-attachments/assets/046960c0-65f8-41fa-af91-e5e04d412202" />
+<img width="833" height="519" alt="image" src="https://github.com/user-attachments/assets/5fbc3424-3e3b-4646-b773-e77db665000f" />
+
 
 
 

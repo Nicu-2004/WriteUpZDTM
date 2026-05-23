@@ -107,3 +107,60 @@ The flag is: `ZDTM{JMLEOENNUOERTMIOSVTSTENWTETNHAGX}`
 Website used: https://www.dcode.fr/transposition-cipher
 
 
+# Comoara Nationala
+
+In this challenge we get a zip file with a flag.txt file locked behind a password and a cryptic .txt file.
+
+B:14:50:8
+B:3:17:2
+PLHA:1:20:3
+MCN:8:115:7
+LTI:1:1:5
+MCN:15:36:1
+B:6:42:4
+PLHA:1:109:1
+MCN:1:6:5
+LTI:1:3:2
+PLHA:1:67:1 
+LTI:1:3:1
+LTI:1:2:3
+LTI:1:2:1
+MCN:3:4:3
+B:10:77:6
+LTI:1:1:3
+B:11:70:4
+PLHA:1:73:5
+MCN:13:92:2
+PLHA:1:345:5 
+B:1:6:7
+PLHA:1:211:3
+B:12:24:3
+
+The description makes it clear that this cryptic text is related to some well known romanian classics.
+Every row is a combination of # NAME:CHAPTER:WORD:CHARACTER.
+Each name is an abreviation of a romanian classic:
+B - Baltagul by Mihail Sadoveanu https://scoala-gropnita.ro/wp-content/uploads/2025/02/Baltagul-de-Mihail-Sadoveanu.pdf
+PLHA - Povestea lui Haraap Alb by Ion Creanga https://oradeliteratura.wordpress.com/wp-content/uploads/2009/06/ion-creanga-povestea-lui-harap-alb.pdf
+MCN - Moara cu noroc by Ioan Slavici https://www.scoalaluceafarul.ro/carti/moara_cu_noroc.pdf
+LTI - Leoaica tanara,iubirea by Nichita Stanescu  https://www.romanianvoice.com/poezii/poezii/leoaica.php
+
+Let's do the first one as an example!
+B:14:50:8 means the first character is in the book Baltagul in chapter 14 in the 50'th word at the 8'th position.
+Keep in mind that in romanian grammar something structures using " - " count as two words (si-a , v-a , intr-o etc.)
+The first step is to click the
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

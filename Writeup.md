@@ -88,6 +88,3 @@ And we got the flag
 
 <img width="833" height="519" alt="image" src="https://github.com/user-attachments/assets/5fbc3424-3e3b-4646-b773-e77db665000f" />
 
-
-
-

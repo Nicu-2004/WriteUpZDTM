@@ -23,6 +23,7 @@ I removed the signature part of my alterned one and replaced it with "legacy-sig
 
 # Open Gallery
 Instantly I noticed that the website allowed any file extensions to be uploaded. Noticing the "PHP" headers, I uploaded a small php that could ls and cat each file
+
 <img width="589" height="306" alt="image" src="https://github.com/user-attachments/assets/90c99b36-c18b-47ee-bca7-db28528e25b0" />
 
 After visiting my submission, I was able to get the flag from the root

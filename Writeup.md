@@ -40,3 +40,20 @@ Viewing the macro, I got the answer to the third question
 <img width="1422" height="741" alt="image" src="https://github.com/user-attachments/assets/3af15604-f294-4212-926c-a45ec2d75094" />
 
 The flag was: `ZDTM{Mara.M@macroplex.com_docm_m4lw4re}`
+
+# in-plain-sight
+I opened the pcap file in Wireshark, and noticed a perculiar response to a request containing a jpeg image
+<img width="1919" height="1037" alt="image" src="https://github.com/user-attachments/assets/88d87851-a370-47a7-83b4-31632dc7ef97" />
+
+I copied the data as a hex dump and went to cyberchef to convert it to a viewable image.
+<img width="958" height="332" alt="image" src="https://github.com/user-attachments/assets/b0057df1-60f3-4f1f-8123-44e3a805ec4f" />
+
+The image wasnt that intresting, until I remembered about exif data. I visited one that allowed me to view it and found something intresting
+
+<img width="1111" height="57" alt="image" src="https://github.com/user-attachments/assets/babaeef3-6552-46bf-98d4-fd1dff4d284d" />
+
+Base64 decoding it gets us the flag
+
+<img width="685" height="615" alt="image" src="https://github.com/user-attachments/assets/343af41f-ca22-4554-93dd-d2d978e3f9f6" />
+
+

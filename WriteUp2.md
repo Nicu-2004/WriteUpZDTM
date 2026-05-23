@@ -159,10 +159,11 @@ Fifth we need to backtrack from the final word the number of " - " we found ( to
 Sixth we need to get right character (in our case 8)
 <img width="1465" height="553" alt="image" src="https://github.com/user-attachments/assets/8c6d512e-04ea-489f-950a-9373144c633c" />
 
-The first letter of our string is : E
-After completing the whole thing the string is : euamivitcuvintepotrivite
+The first letter of our string is : 'E'
 
-Using this string as the password for the flag.txt file reveals to us the Flag
+After completing the whole thing the string is : `euamivitcuvintepotrivite`
+
+Using this string as the password for the flag.txt file reveals to us the flag: `ZDTM{bravo_tinere_sunt_mandru_de_tine}`
 
 
 

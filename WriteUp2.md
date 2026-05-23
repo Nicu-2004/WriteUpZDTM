@@ -2,7 +2,7 @@
 
 First of all, all flags have the same structure: ZDTM{...}
 
-# Challenge 1. 
+# Challenge 1 
 
 The archivist claimed his encryption was impossible to reverse.
 
@@ -20,7 +20,7 @@ After that i noticed that the begging of the new string looks too similar to the
 
 Website used: https://www.dcode.fr/xor-cipher
 
-# Challenge 2.
+# Challenge 2
 
 The archivist thought he learned from his previous mistake. Did hex?
 
@@ -32,7 +32,46 @@ Using the author's suggestion I decrypted the string using hex.
 
 After that I noticed that the new string looks very familiar to base64 so I used that on it and there was the flag!
 
-<img width="1308" height="614" alt="image" src="https://github.com/user-attachments/assets/4f017f55-8608-4e9a-8ad5-1cb623c0f97f" />
+<img width="1264" height="588" alt="image" src="https://github.com/user-attachments/assets/6dedd1f0-f0c9-4f56-938f-02d0d7b60559" />
+
+Webiste used: https://gchq.github.io/CyberChef/
+
+# Challenge 3
+
+Challenge 3.
+A handwritten poem was found beside this one.
+~
+A fost o datÄ ca-n poveČti,
+A fost ca niciodatÄ,
+Din rude mari ĂŽmpÄrÄteČti,
+O prea frumoasÄ fatÄ.
+
+Či era una la pÄrinČi
+Či mĂ˘ndrÄ-n toate cele,
+Cum e Fecioara ĂŽntre sfinČi
+Či luna ĂŽntre stele.
+
+Din umbra falnicelor bolČi
+Ea pasul Či-l ĂŽndreaptÄ
+LĂ˘ngÄ fereastrÄ, unde-n colČ
+LuceafÄrul aČteaptÄ.
+
+Privea ĂŽn zare cum pe mÄri
+RÄsare Či strÄluce,
+Pe miČcÄtoarele cÄrÄri
+CorÄbii negre duce.
+~
+
+KXVQ{RJTVNL_AYPXRZ_CZICMU_CVDJLVHPLMEE}
+
+Here is a famous romanian poem called "Luceafarul" written by Mihai Eminescu.
+At first the string bellow looked like Caesar Cypher but I was mistaken.
+After that I used Vignere Cypher on the string with the key "Luceafarul", the name of the poem.
+
+<img width="767" height="447" alt="image" src="https://github.com/user-attachments/assets/6b069555-069e-445f-86e9-32fe0cb3c79c" />
+
+Webisite used: https://www.dcode.fr/vigenere-cipher
+
 
 
 

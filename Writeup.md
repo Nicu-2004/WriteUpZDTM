@@ -75,7 +75,7 @@ This version was a lot stricter, but it still had flaws. It allowed me to upload
 <img width="986" height="910" alt="image" src="https://github.com/user-attachments/assets/293d8ee4-305d-4fe6-9bb5-5d13541f6828" />
 
 # movie-proxy
-I went to the website and notice that the reviews page had some internal talk, specifically about forward-user.
+I went to the website and noticed that the reviews page had some internal talk, specifically about forward-user.
 <img width="885" height="476" alt="image" src="https://github.com/user-attachments/assets/31c9bb28-e0fb-4d8d-af76-304db092acf1" />
 
 I went to the internal page and noticed this.
@@ -85,6 +85,7 @@ I copied the request as fetch and added the "X-Forwarded-User" header.
 <img width="753" height="255" alt="image" src="https://github.com/user-attachments/assets/e91aebd7-b6a2-4143-90ca-0e79916fc3cf" />
 
 And we got the flag
+
 <img width="833" height="519" alt="image" src="https://github.com/user-attachments/assets/5fbc3424-3e3b-4646-b773-e77db665000f" />
 
 

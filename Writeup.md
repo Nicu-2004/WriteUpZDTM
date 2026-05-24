@@ -154,3 +154,16 @@ Host: localhost
 Success.
 
 <img width="618" height="623" alt="image" src="https://github.com/user-attachments/assets/d6bd644d-15a2-49be-8299-9b30f93293c3" />
+
+# storage gateway
+```
+During an internal audit, a storage gateway was discovered on port 23 along with some credentials: analyst:zeroday2026!
+
+Further investigation suggests that sensitive data is stored in an archive under a different account.
+```
+Using telnet I connected to the ip and port and logged into the acount
+<img width="1101" height="390" alt="image" src="https://github.com/user-attachments/assets/a2bf777b-028a-4182-be89-dd80a5be318f" />
+I went to the root and noticed a file called `startup.sh`, I then listed it
+<img width="1039" height="494" alt="image" src="https://github.com/user-attachments/assets/b3968371-b974-44f5-af74-938583fefe8c" />
+Great success.
+

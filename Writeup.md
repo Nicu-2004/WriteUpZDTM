@@ -1,4 +1,9 @@
 # consent-kiosk
+```
+Please read and accept our terms.
+Btw, HR designed the button to be very respectful of personal space.
+```
+
 When I opened the website, the first thing I noticed was the "I agree" button avoiding the mouse.
 <img width="773" height="494" alt="image" src="https://github.com/user-attachments/assets/ab67f5f1-7c67-4b2a-920d-3c71cd9cc3fd" />
 
@@ -12,6 +17,10 @@ I copied its content to the console, and called the function directly.
 <img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/7dc81eb8-c62f-4b8e-88f3-fadf623aa5ad" />
 
 # legacy-profile
+```
+A small portal that lets users update their info, what could go wrong?
+```
+
 After I registered to the website, I noticed that a session token was created that had no valid signature.
 <img width="659" height="196" alt="image" src="https://github.com/user-attachments/assets/3d2d6086-a1de-4f6e-b272-f2f971e959ed" />
 
@@ -22,6 +31,11 @@ I removed the signature part of my alterned one and replaced it with `legacy-sig
 <img width="1020" height="358" alt="image" src="https://github.com/user-attachments/assets/5997e4bc-d4d7-4499-a18f-a84d0de8ec3b" />
 
 # Open Gallery
+```
+the gallery accepts anything the artist brings.
+
+Get the flag from /flag.txt
+```
 I instantly noticed that the website allowed files with any extension to be uploaded. Noticing the PHP headers, I uploaded a small PHP file that could ls and cat each file
 
 <img width="589" height="306" alt="image" src="https://github.com/user-attachments/assets/90c99b36-c18b-47ee-bca7-db28528e25b0" />
@@ -30,6 +44,13 @@ After visiting my submission, I was able to get the flag from the root directory
 <img width="968" height="925" alt="image" src="https://github.com/user-attachments/assets/524de7db-e12d-4d3e-9e16-fae7689a542a" />
 
 # MacroPlex
+```
+Welcome Trainee to the phishing training course!
+You have been provided with your task
+Q1. What is the email of the recipient?
+Q2. What is the extension of the attachment? (for example: pdf, mp3)
+Q3. What did you find in the attachment?
+```
 After opening the .eml file in Outlook, I instantly knew the first 2 questions required to solve the challange.
 <img width="1416" height="256" alt="image" src="https://github.com/user-attachments/assets/ff2d45f5-02c3-4ade-b14c-51b9187ecd7f" />
 
@@ -42,6 +63,9 @@ Viewing the macro gave me the answer to the third question
 The flag was: `ZDTM{Mara.M@macroplex.com_docm_m4lw4re}`
 
 # in-plain-sight
+```
+dw about it DW is full of mysteries [=
+```
 I opened the pcap file in Wireshark, and noticed a peculiar response to a request containing a jpeg image
 <img width="1919" height="1037" alt="image" src="https://github.com/user-attachments/assets/88d87851-a370-47a7-83b4-31632dc7ef97" />
 
@@ -57,7 +81,11 @@ Base64 decoding it reveals the flag
 <img width="685" height="615" alt="image" src="https://github.com/user-attachments/assets/343af41f-ca22-4554-93dd-d2d978e3f9f6" />
 
 # breaking-zip
-
+```
+This zip archive is impossible to unzip, therefore it's impossible to get the flag.
+Source?
+Just trust me bro.
+```
 I firstly opened the zip in 7-Zip and saw the following file structure.
 <img width="837" height="191" alt="image" src="https://github.com/user-attachments/assets/8d662f12-83d9-47ef-88fa-c1c6733d181d" />
 
@@ -69,12 +97,20 @@ SUCCESS!!!! Opening flag.txt reveals it
 
 <img width="409" height="91" alt="image" src="https://github.com/user-attachments/assets/d6d85b65-ede9-4c15-b9f0-32d4460e8dc2" />
 
-# Open Gallery - text only version 
+# Open Gallery - text only version
+```
+the note wall accepts printable raw notes with no extension, or printable .txt files
+
+get flag from /flag.txt
+```
 This version was a lot stricter, but it still had flaws. It allowed me to upload a .htaccess file [`AddType application/x-httpd-php .txt`] that made every .txt file behave like a .php. It was the same proccess as before
 
 <img width="986" height="910" alt="image" src="https://github.com/user-attachments/assets/293d8ee4-305d-4fe6-9bb5-5d13541f6828" />
 
 # movie-proxy
+```
+MovieTalk 2010 is a tiny public forum for proxying movie reviews and box office guesses.
+```
 I went to the website and noticed that the reviews page had some internal talk, specifically about forward-user.
 <img width="885" height="476" alt="image" src="https://github.com/user-attachments/assets/31c9bb28-e0fb-4d8d-af76-304db092acf1" />
 
@@ -89,6 +125,10 @@ And we got the flag
 <img width="833" height="519" alt="image" src="https://github.com/user-attachments/assets/5fbc3424-3e3b-4646-b773-e77db665000f" />
 
 # Front Desk
+```
+the public desk counts bytes
+Get to the restricted localhost endpoint, /admin/flag !
+```
 I opened the site and was informed that there was an public desk, aswell as one that was internal.
 <img width="1160" height="610" alt="image" src="https://github.com/user-attachments/assets/1d1caacf-8c0d-4357-986f-861a1681e935" />
 

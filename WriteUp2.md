@@ -101,7 +101,7 @@ JUSTMOVELETTERSNOTTHEMEANINGNOW
 First of all I had to search the name of the algorithm the author was reffering: "the 4 column thingy"
 After some research I learned that the name of the cipher is Transposition Cipher and it only has 4 columns when the key is exactly 4 characters long.
 The string we need to encrypt has a clear meaning, we have to just move the letters so the key will be 4 characters in ascending value ASCII wise ( A B C D or 1 2 3 4 )
-We also get the hind that we should add "X" at the end of the message ( "Btw,X")
+We also get the hint that we should add "X" at the end of the message ( "Btw,X")
 
 <img width="429" height="265" alt="image" src="https://github.com/user-attachments/assets/653a7493-a2a7-4f04-b381-c8987fcff95b" />
 <img width="334" height="77" alt="image" src="https://github.com/user-attachments/assets/e0f2101e-654a-4832-b174-8efdf4eb46bf" />
@@ -142,7 +142,7 @@ PLHA:1:211:3
 B:12:24:3
 ```
 The description makes it clear that this cryptic text is related to some well known romanian classics.
-Every row is a combination of # NAME:CHAPTER:WORD:CHARACTER.
+Every row is a combination of  NAME:CHAPTER:WORD:CHARACTER.
 Each name is an abreviation of a romanian classic:
 
 `B - Baltagul by Mihail Sadoveanu` [Baltagul-de-Mihail-Sadoveanu.pdf](https://scoala-gropnita.ro/wp-content/uploads/2025/02/Baltagul-de-Mihail-Sadoveanu.pdf)
@@ -157,20 +157,20 @@ Each name is an abreviation of a romanian classic:
 
 Let's do the first one as an example!
 B:14:50:8 means the first character is in the book Baltagul in chapter 14 in the 50'th word at the 8'th position.
-Keep in mind that in romanian grammar something structures using " - " count as two words (si-a , v-a , intr-o etc.)
-The first step is to go to the virtual version of the book (the links for all of them are above)
+Keep in mind that in romanian grammar, structures using " - " count as two words (si-a , v-a , intr-o etc.).
+The first step is to go to the virtual version of the book (the links for all of them are above).
 Second we need to search for the chapter 14 (CTRL + F Capitolul 14)
 <img width="617" height="775" alt="image" src="https://github.com/user-attachments/assets/67d8eeb9-8b0f-4895-98d1-36fb871b77fa" />
 
 Third we need to copy a chunk of text and paste it in a word file (it counts the words for us).
 <img width="840" height="757" alt="image" src="https://github.com/user-attachments/assets/44b47ed0-b3bb-475c-b907-e39d1a051a88" />
 
-Forth we need to trim it to the word we need (in our case the 50th) and search how many " - " we have.
+Fourth we need to trim it to the word we need (in our case the 50th) and search how many " - " we have.
 <img width="1135" height="860" alt="image" src="https://github.com/user-attachments/assets/aa888385-0414-458b-94da-fa5cbb22601b" />
 
-Fifth we need to backtrack from the final word the number of " - " we found ( to get to the real 50th word)
+Fifth we need to backtrack from the final word the number of " - " we found ( to get to the real 50th word).
 <img width="1042" height="275" alt="image" src="https://github.com/user-attachments/assets/270cdeae-0581-4a40-abab-066cf7c56f78" />
-Sixth we need to get right character (in our case 8)
+Sixth we need to get right character (in our case 8).
 <img width="1465" height="553" alt="image" src="https://github.com/user-attachments/assets/8c6d512e-04ea-489f-950a-9373144c633c" />
 
 The first letter of our string is : 'e'

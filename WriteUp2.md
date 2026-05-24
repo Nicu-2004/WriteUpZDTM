@@ -197,9 +197,9 @@ This is our board looks after I overlapped the algorithm with the board.
 
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/e3e27023-2396-48f1-a00f-a3d0592a6e51" />
 
-Following the lines (starting where our knight is) we get the characters: 'THE_REAL_KNIGHTS_MOVE_SEQUENCE_GETS_SHARPER_WITH_MORE_ATTENTION'
+Following the lines (starting where our knight is) we get the characters: `THE_REAL_KNIGHTS_MOVE_SEQUENCE_GETS_SHARPER_WITH_MORE_ATTENTION`
 
-The flag is: 'ZDTM{THE_REAL_KNIGHTS_MOVE_SEQUENCE_GETS_SHARPER_WITH_MORE_ATTENTION}'
+The flag is: `ZDTM{THE_REAL_KNIGHTS_MOVE_SEQUENCE_GETS_SHARPER_WITH_MORE_ATTENTION}`
 
 
 

@@ -179,6 +179,30 @@ After completing the whole thing the string is : `euamivitcuvintepotrivite`
 
 Using this string as the password for the flag.txt file reveals to us the flag: `ZDTM{bravo_tinere_sunt_mandru_de_tine}`
 
+# Radial, the Great Knight
+
+' legend has it that he provides a hidden message '
+
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/52444505-5c59-4669-99bf-08f7494810f8" />
+
+At first I had no ideea what the picture meant so I did a reverse image search.
+Turns out the image is a well known puzzle in chess called "Knight's Tour". 
+The main ideea of the game is that the knight must go on all the squares exactly once starting from a given square (in our case bottom left).
+We can see that in the author's picture there are letters and underscores scattered around all the board. We can safely assume that this is how we are going to get our flag.
+After trying some variants of the game that worked but didn't get us the right flag we choose to use the algorithm in the Wikipedia article and manually do it ourselves.
+
+<img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/9a2fca5a-c6ab-42e3-9b1a-8cb362c9d329" />
+
+This is our board looks after I overlapped the algorithm with the board.
+
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/e3e27023-2396-48f1-a00f-a3d0592a6e51" />
+
+Following the lines (starting where our knight is) we get the characters: 'THE_REAL_KNIGHTS_MOVE_SEQUENCE_GETS_SHARPER_WITH_MORE_ATTENTION'
+
+The flag is: 'ZDTM{THE_REAL_KNIGHTS_MOVE_SEQUENCE_GETS_SHARPER_WITH_MORE_ATTENTION}'
+
+
+
 
 
 

@@ -144,12 +144,16 @@ B:12:24:3
 The description makes it clear that this cryptic text is related to some well known romanian classics.
 Every row is a combination of # NAME:CHAPTER:WORD:CHARACTER.
 Each name is an abreviation of a romanian classic:
-```
-B - Baltagul by Mihail Sadoveanu https://scoala-gropnita.ro/wp-content/uploads/2025/02/Baltagul-de-Mihail-Sadoveanu.pdf
-PLHA - Povestea lui Haraap Alb by Ion Creanga https://oradeliteratura.wordpress.com/wp-content/uploads/2009/06/ion-creanga-povestea-lui-harap-alb.pdf
-MCN - Moara cu noroc by Ioan Slavici https://www.scoalaluceafarul.ro/carti/moara_cu_noroc.pdf
-LTI - Leoaica tanara,iubirea by Nichita Stanescu  https://www.romanianvoice.com/poezii/poezii/leoaica.php
-```
+
+`B - Baltagul by Mihail Sadoveanu` [Baltagul-de-Mihail-Sadoveanu.pdf](https://scoala-gropnita.ro/wp-content/uploads/2025/02/Baltagul-de-Mihail-Sadoveanu.pdf)
+
+`PLHA - Povestea lui Haraap Alb by Ion Creanga` [ion-creanga-povestea-lui-harap-alb.pdf](https://oradeliteratura.wordpress.com/wp-content/uploads/2009/06/ion-creanga-povestea-lui-harap-alb.pdf)
+
+`MCN - Moara cu noroc by Ioan Slavici` [moara_cu_noroc.pdf](https://www.scoalaluceafarul.ro/carti/moara_cu_noroc.pdf)
+
+`LTI - Leoaica tanara,iubirea by Nichita Stanescu`  [leoaica.php](https://www.romanianvoice.com/poezii/poezii/leoaica.php)
+
+
 
 Let's do the first one as an example!
 B:14:50:8 means the first character is in the book Baltagul in chapter 14 in the 50'th word at the 8'th position.
